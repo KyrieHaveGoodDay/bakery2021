@@ -7,7 +7,7 @@ $color-white: white;
 }
 nav {
     display: grid;
-    grid-template-columns: 20% auto 20%;
+    grid-template-columns: 15% auto 15%;
     text-align: center;
     background: $color-white;
     padding: 10px;
@@ -18,24 +18,18 @@ nav {
     a {
         color: $color-black;
         text-decoration: none;
-        padding: 0 30px;
+        padding: 0 20px;
         transition: 0.5s;
 
         &:hover {
-            font-size: 36px;
+            font-size: 25px;
         }
     }
+    // 要處理部分 
       #link-logo {
           width: 350px;
           height: 350px;
       }
-    // #link-logo{
-    //     width: 80px;
-    //     height: 80px;
-    // }
     
     
-}
-
-.logo {
 }

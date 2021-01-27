@@ -8,8 +8,8 @@
 nav {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 20% auto 20%;
-      grid-template-columns: 20% auto 20%;
+  -ms-grid-columns: 15% auto 15%;
+      grid-template-columns: 15% auto 15%;
   text-align: center;
   background: white;
   padding: 10px;
@@ -19,13 +19,13 @@ nav {
 #link a {
   color: black;
   text-decoration: none;
-  padding: 0 30px;
+  padding: 0 20px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 #link a:hover {
-  font-size: 36px;
+  font-size: 25px;
 }
 
 #link #link-logo {
